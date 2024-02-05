@@ -3,5 +3,9 @@
 
 void fun();
 void hello();
+<<<<<<< HEAD
 
+=======
+void hello2();
+>>>>>>> 29661df (reset)
 #endif
