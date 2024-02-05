@@ -2,6 +2,6 @@
 #define __HELLO_H_
 
 void fun();
-void hello();
+
 
 #endif
