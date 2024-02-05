@@ -4,5 +4,3 @@
 void fun();
 void hello();
 
-void hello2();
-#endif
