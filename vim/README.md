@@ -13,7 +13,10 @@ alias vctags="ctags -R --c++-kinds=+p --fields=+iaS --extra=+q"
 
 当代码有新的结构，函数定义后，执行以下，就可以了
 
-安装插件	打开 vim 输入 :PlugInstall
+安装插件
+./install_vim_plug.sh
+打开 vim 输入 :PlugInstall
+
 
 
 ubuntu系统下安装ctags方式：
