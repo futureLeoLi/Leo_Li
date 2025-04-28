@@ -62,3 +62,12 @@ let OmniCpp_MayCompleteDot=1
 let OmniCpp_MayCompleteArrow=1
 let OmniCpp_MayCompleteScope=1
 let OmniCpp_DefaultNamespaces=["std","_GLIBCXX_STD"]
+call plug#begin('~/.vim/plugged')
+
+Plug 'https://hub.fastgit.org/godlygeek/tabular.git'
+Plug 'https://hub.fastgit.org/preservim/vim-markdown.git'
+
+Plug 'preservim/vim-markdown'   " 安装 vim-markdown 插件
+Plug 'godlygeek/tabular'         " 安装表格对齐插件
+
+call plug#end()
