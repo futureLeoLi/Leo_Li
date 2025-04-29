@@ -12,7 +12,8 @@ fi
 
 # 克隆 tpm
 if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
-    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    #git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    git clone https://hub.gitmirror.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     echo "TPM 安装完成。"
 else
     echo "TPM 已存在，跳过克隆。"
@@ -26,4 +27,3 @@ echo ">>> 请进入 tmux 后按 Ctrl+a 再按 I （大写i）来自动安装插�
 # tmux new-session -d -s temp_install "sleep 2; ~/.tmux/plugins/tpm/bin/install_plugins; tmux kill-session -t temp_install"
 
 echo ">>> 安装脚本执行完毕！记得在 tmux 中按 Ctrl+a 再按 I 安装插件哦！"
-
